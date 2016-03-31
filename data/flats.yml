@@ -1,0 +1,21 @@
+# - name: Some product
+#   image: some_product.png
+# - name: Other product
+#   image: other_product.png
+
+bubble:
+  name: Bubble Bump
+  picture: bubble.jpeg
+  city: Pau
+archer:
+  name: Archery Game
+  picture: archery_picture.png
+  city: Pau
+sumo:
+  name: Sumo
+  picture: Sumo-e1445182341792.png
+  city: Pau
+bumball:
+  name: bumball
+  picture: Bumball.jpg
+  city: Pau
