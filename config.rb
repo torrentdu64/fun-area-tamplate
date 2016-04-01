@@ -26,6 +26,11 @@ activate :autoprefixer
 # with_layout :admin do
 #   page "/admin/*"
 # end
+#
+# # Assumes the file source/about/template.html.erb exists
+data.flats.keys.each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :person_name => name }
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
