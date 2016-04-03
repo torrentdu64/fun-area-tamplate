@@ -1,4 +1,42 @@
-
+</div>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Fun Arena</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><%= link_to "bubble bump", "/flats/bubble.html" %></li>
+              <li><%= link_to "archer", "/flats/archer.html" %></li>
+              <li><%= link_to "sumo", "/flats/sumo.html" %></li>
+              <li><%= link_to "bumball", "/flats/bumball.html" %></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
 <div class="welcome text-center padded">
   <h1>Welcome on Fun Area</h1>
   <p class="doc">
@@ -26,59 +64,10 @@
         </div>
       </div>
     </div>
-    <div class="wap">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('photo.jpg');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-          <h2>Some stuff</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </div>
-          <%= image_tag "archers.jpg" %>
-          <a class="card-link" href="#" ></a>
-      </div>
-    </div>
   </div>
 </div>
 
 </div>
-  <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Fun Arena</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><%= link_to "bubble bump", "/flats/bubble.html" %></li>
-              <li><a href="#">Archers</a></li>
-              <li><a href="#">Sumo</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-              </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </div>
-
-
   <!-- Carousel
   ================================================== -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -176,7 +165,17 @@
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p><!-- /.col-lg-4 -->
       </div>
     </div><!-- /.row -->
-
+    <div class="wap">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('photo.jpg');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Some stuff</h2>
+          <p>Very cool stuff, useful and smart</p>
+        </div>
+          <%= image_tag "archers.jpg" %>
+          <a class="card-link" href="#" ></a>
+      </div>
+    </div>
 
     <!-- START THE FEATURETTES -->
 
