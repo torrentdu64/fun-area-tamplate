@@ -8,7 +8,7 @@
 # end
 
 # Auto-prefixing of CSS code with vendor prefix
-activate :autoprefixer
+#activate :autoprefixer
 
 ###
 # Page options, layouts, aliases and proxies
