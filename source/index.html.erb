@@ -1,4 +1,4 @@
-</div>
+<!-- </div>
   <div class="navbar-wrapper">
     <div class="container">
       <nav class="navbar navbar-inverse navbar-static-top">
@@ -36,7 +36,7 @@
       </nav>
     </div>
   </div>
-</div>
+</div> -->
 <div id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -78,7 +78,7 @@
   <p class="doc">
     <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
   </p>
-  <div class="wapper">
+  <<!-- div class="wapper">
     <div class="container">
       <div class="row">
         <div class="col-xs-offset-1 col-xs-3">
@@ -102,7 +102,7 @@
     </div>
   </div>
 </div>
-
+ -->
 
 
 
@@ -165,43 +165,48 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img class="img-circle"
-         <%= image_tag "bubble.jpeg", width: "140", height: "140" %>
-        <h2><%= data.flats.bubble.name %></h2>
+        <img class="img-circle">
+            <%= link_to (image_tag "bubble.jpeg", width: "140", height: "140"),
+             '/flats/bubble.html'%>
+        <h2><%= link_to data.flats.bubble.name, '/flats/bubble.html'%></h2>
         <p>Donec sed odinameo dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="/flats/bubble.html" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="img-circle"
-         <%= image_tag "archers.jpg", width: "140", height: "140" %>
-        <h2><%= data.flats.archer.name %></h2>
+        <img class="img-circle">
+         <%= link_to (image_tag "archers.jpg", width: "140", height: "140"),
+          '/flats/archer.html'%>
+        <h2><%=  link_to data.flats.archer.name, '/flats/archer.html' %></h2>
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="/flats/archer.html" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="img-circle"
-          <%= image_tag "Sumo-e1445182341792.png", width: "140", height: "140" %>
-        <h2><%= data.flats.sumo.name %></h2>
+        <img class="img-circle">
+          <%= link_to (image_tag "Sumo-e1445182341792.png", width: "140", height: "140"),
+           '/flats/sumo.html'%>
+        <h2><%= link_to data.flats.sumo.name, '/flats/sumo.html' %></h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="/flats/sumo.html" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-lg-offset-2 col-lg-4">
-        <img class="img-circle"
-         <%= image_tag "bumball1pic3.jpg", width: "140", height: "140" %>
-        <h2><%= data.flats.bumball.name %></h2>
+        <img class="img-circle">
+         <%= link_to (image_tag "bumball1pic3.jpg", width: "140", height: "140"),
+         '/flats/bumball.html' %>
+        <h2><%= link_to data.flats.bumball.name, '/flats/bumball.html' %></h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p><!-- /.col-lg-4 -->
+        <p><a class="btn btn-default" href="/flats/bumball.html" role="button">View details &raquo;</a></p><!-- /.col-lg-4 -->
       </div>
       <div class="col-lg-4">
-        <img class="img-circle"
-          <%= image_tag "archers.jpg", width: "140", height: "140" %>
-        <h2><%= data.flats.structure_glonfle.name %></h2>
+        <img class="img-circle">
+          <%= link_to (image_tag "archers.jpg", width: "140", height: "140"),
+           '/flats/structure_glonfle.html' %>
+        <h2><%= link_to data.flats.structure_glonfle.name,
+          '/flats/structure_glonfle.html' %></h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p><!-- /.col-lg-4 -->
+        <p><a class="btn btn-default" href="/flats/structure_glonfle.html" role="button">View details &raquo;</a></p><!-- /.col-lg-4 -->
       </div>
     </div><!-- /.row -->
     <div class="wap">
