@@ -23,3 +23,7 @@ structure_glonfle:
   name: chateaux
   picture:
   city: Pau
+event:
+  name:
+  picture:
+  city:
