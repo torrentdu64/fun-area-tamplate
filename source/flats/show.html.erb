@@ -2,6 +2,9 @@
 
 <% flats = data.flats[person_name] %>
 
+
+
+
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path flats.picture %>'); height: 75vh; background-position: center;">
   <div class="banner-content">
     <h1>Some Stuff</h1>
@@ -18,7 +21,7 @@
           <div class="modal-body">
             <form>
               <div class="form-group">
-                <label for="recipient-name" class="control-label">Recipient:</label>
+                <label for="recipient-name" class="econtrol-label">Recipient:</label>
                 <input type="text" class="form-control" id="recipient-name">
               </div>
               <div class="form-group">
@@ -40,21 +43,20 @@
 
 
 
-
 <div class="container">
 
   <!-- The justified navigation menu is meant for single line per list item.
        Multiple lines will require custom code not provided by Bootstrap. -->
   <div class="masthead">
-    <h3 class="text-muted">Project name</h3>
+    <h3 class="text-muted">fun Arena</h3>
     <nav>
       <ul class="nav nav-justified">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Downloads</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true %></a></li>
+        <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html'%></a></li>
+        <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html'%></a></li>
+        <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html'%></a></li>
+        <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html'%></a></li>
+        <li><a> <%= link_to data.flats.structure_glonfle.name, '/flats/structure_glonfle.html'%></a></li>
       </ul>
     </nav>
   </div>
@@ -63,7 +65,7 @@
   <div class="jumbotron">
     <h1>Marketing stuff!</h1>
     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+    <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button></p>
   </div>
 
       <!-- Example row of columns -->
