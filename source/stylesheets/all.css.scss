@@ -97,3 +97,22 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+// ----------------------------------------------------------//
+// flats
+.btn-danger {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #F8321E;
+  transition: background 0.3s ease;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+
+

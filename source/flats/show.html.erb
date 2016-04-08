@@ -47,19 +47,19 @@
 
   <!-- The justified navigation menu is meant for single line per list item.
        Multiple lines will require custom code not provided by Bootstrap. -->
-  <div class="masthead">
-    <h3 class="text-muted">fun Arena</h3>
-    <nav>
-      <ul class="nav nav-justified">
-        <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true %></a></li>
-        <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html'%></a></li>
-        <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html'%></a></li>
-        <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html'%></a></li>
-        <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html'%></a></li>
-        <li><a> <%= link_to data.flats.structure_glonfle.name, '/flats/structure_glonfle.html'%></a></li>
-      </ul>
-    </nav>
-  </div>
+<div class="masthead :hover">
+  <h3 class="text-muted text-center">fun Arena</h3>
+  <nav>
+    <ul class="nav nav-justified">
+      <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true, class: "btn btn-danger" %></a></li>
+      <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html', class: "btn btn-danger" %></a></li>
+      <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.structure_glonfle.name, '/flats/structure_glonfle.html', class: "btn btn-danger" %></a></li>
+    </ul>
+  </nav>
+</div>
 
   <!-- Jumbotron -->
   <div class="jumbotron">
