@@ -15,7 +15,8 @@
 @import "vendor/*";
 
 .wap {
-  background-color: #F5F5F5;
+  background: url('http://lorempixel.com/600/200/animals');
+  background-attachment: fixed;
 }
  // -------------------- flats.banner------------//
 .banner {
@@ -118,7 +119,12 @@
 }
 
 
+// --------------------------------------------------//
+// events
 
+.envent-fb{
+ border-radius: 10px;
+}
 
 
 
