@@ -14,9 +14,13 @@
 @import "pages/*";
 @import "vendor/*";
 
+.wapes{
+  background: #EEEEEE
+}
 .wap {
-  background: url('http://lorempixel.com/600/200/animals');
+  background: url('../images/Logo Fun Arena.png');
   background-attachment: fixed;
+  background-position: center;
 }
  // -------------------- flats.banner------------//
 .banner {
@@ -105,14 +109,14 @@
   padding: 10px 15px;
   border-radius: 4px;
   font-weight: bold;
-  background: #F8321E;
+  background: #EEEEEE;
   transition: background 0.3s ease;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
   opacity: 1;
   background: #3ac162;
   text-decoration: none;
-  color: #3C3C3C;
+  color: red;
 }
 .pad{
   letter-spacing: 3px;
