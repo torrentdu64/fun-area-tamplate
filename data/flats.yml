@@ -10,14 +10,6 @@ bubble:
   prix: 15 €
   forfait: 240 €
   etudiant: 150 €
-  Packs_adutes1: 30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
-  Packs_adutes2: 30 minutes Bubble + 1 heure Archer 260€
-  Packs_adutes3: 1 heure Bubble + 1 heure Archer 320€
-  Packs_adutes1:  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
-  Packs_adutes2: 2 heures Laser enfants 200€ (jusqu’à 16 enfants)
-  Packs_adutes3: 1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
-  Formules_anniversaire1: 1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
-   Formules_anniversaire2: 1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 archer:
   name: Archery Game
   picture: archery_picture.png
@@ -25,14 +17,6 @@ archer:
   prix: 15 €
   forfait: 120 €
   etudiant: 120 €
-  Packs_adutes1: 30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
-  Packs_adutes2: 30 minutes Bubble + 1 heure Archer 260€
-  Packs_adutes3: 1 heure Bubble + 1 heure Archer 320€
-  Packs_enfants1:  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
-  Packs_enfants2:  2 heures Laser enfants 200€ (jusqu’à 16 enfants)
-  Packs_enfants3:  1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
-  Formules_anniversaire1: 1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
-  Formules_anniversaire2: 1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 sumo:
   name: Sumo
   picture: Sumo-e1445182341792.png
@@ -55,21 +39,10 @@ lazer:
   picture: oyanalaser.jpg
   city: Pau
   prix: 15 €
-  Packs_adutes1: 30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
-  Packs_adutes2: 30 minutes Bubble + 1 heure Archer 260€
-  Packs_adutes3: 1 heure Bubble + 1 heure Archer 320€
-  Packs_enfants1:  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
-  Packs_enfants2:  2 heures Laser enfants 200€ (jusqu’à 16 enfants)
-  Packs_enfants3:  1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
-  Formules_anniversaire1:  1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
-  Formules_anniversaire2:  1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 event:
   name:
   picture:
   city:
-<<<<<<< HEAD
-
-=======
 Packs_adutes:  30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
                 30 minutes Bubble + 1 heure Archer 260€
                 1 heure Bubble + 1 heure Archer 320€
@@ -77,7 +50,9 @@ Packs_adutes:  30 min Bubble + 30 minutes Archer 25€/personne (6 personnes min
 Packs_enfants:  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
                 2 heures Laser enfants 200€ (jusqu’à 16 enfants)
                 1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
->>>>>>> flats
+
+Formules_anniversaire: 1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+                        1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 
 
 
