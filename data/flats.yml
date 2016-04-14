@@ -26,7 +26,7 @@ sumo:
     adultes: 100 €
 bumball:
   name: Bumball
-  picture: Bumball.jpg
+  picture: bumball1pic3.jpg
   city: Pau
   prix: 120 €
 structure_glonfle:
@@ -35,8 +35,8 @@ structure_glonfle:
   city: Pau
   prix:
 lazer:
-  name: Jungle Game
-  picture:
+  name: Lazer Game
+  picture: oyanalaser.jpg
   city: Pau
   prix: 15 €
 event:

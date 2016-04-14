@@ -1,14 +1,29 @@
 
 
 <% flats = data.flats[person_name] %>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1742516322697561',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path flats.picture %>'); height: 75vh; background-position: center;">
   <div class="banner-content">
-    <h1>Some Stuff</h1>
-    <p>Very cool stuff, useful and smart</p>
+    <h1><%= data.flats[person_name].name %></h1>
      <!-- Button trigger modal -->
      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button>
      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
@@ -53,25 +68,20 @@
       <!-- Example row of columns -->
 <div class="row">
   <div class="col-lg-4">
-    <h2>Nos bulle!</h2>
-    <p class="text-danger">Le concept nous vient tout droit de Norvège et est UNIQUE en france !!</p>
-
-    <p>On prend presque autant de plaisir à regarder qu'à jouer au Bubble Bump ;)
-    Vous n'êtes pas encore convaincu ? ... Visionnez une des "vidéo souvenir" que nous réalisons pour les groupes qui viennent Bubble Bumper et vous aurez la preuve en images ! délires et fous rires garantis !</p>
-
-    <p>Tout le monde a envie de s'essayer à Bubble Bump ... alors dépêchez vous de vous positionner pour des créneaux à partager avec vos amis .</p>
-    <p></p>
-    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-  </div>
-  <div class="col-lg-4">
     <h2><i class="pad fa fa-facebook-square"></i>acebook </h2>
-    <div class="fb-page"></div>
-    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-    </div>
-  <div class="col-lg-4">
-    <h2>Heading</h2>
-    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+      <div class="fb-page"
+            data-tabs="messages,events,timeline"
+            data-href="https://www.facebook.com/FUN-ARENA-241864466148382/?fref=ts"
+            data-width="330"
+            data-hide-cover="false">
+      </div>
+  </div>
+  <div class="col-lg-8">
+    <h2><i class="fa fa-youtube" aria-hidden="true"></i> Souvenir souvenir</h2>
+    <iframe id="ytplayer" type="text/html" width="640" height="390"
+            src="http://www.youtube.com/embed/XOAKSuD6qR0?autoplay=1&origin=https://www.youtube.com/watch?v=XOAKSuD6qR0"
+            frameborder="0"/>
+    </iframe>
   </div>
 </div>
 
