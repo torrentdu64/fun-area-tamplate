@@ -1,16 +1,31 @@
 
 
 <% flats = data.flats[person_name] %>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1742516322697561',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path flats.picture %>'); height: 75vh; background-position: center;">
   <div class="banner-content">
-    <h1>Some Stuff</h1>
-    <p>Very cool stuff, useful and smart</p>
+    <h1><%= data.flats[person_name].name %></h1>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button>
      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -19,20 +34,9 @@
             <h4 class="modal-title" id="exampleModalLabel">New message</h4>
           </div>
           <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="econtrol-label">Recipient:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="control-label">Message:</label>
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
+            <iframe src="https://docs.google.com/forms/d/1mqrviQa3HWd0MYzsXEk_jg8SezZkjjbbKX-P8HTtQo0/viewform?embedded=true" width="400" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Send message</button>
           </div>
         </div>
       </div>
@@ -42,55 +46,75 @@
 
 
 
-
 <div class="container">
 
   <!-- The justified navigation menu is meant for single line per list item.
        Multiple lines will require custom code not provided by Bootstrap. -->
-  <div class="masthead">
-    <h3 class="text-muted">fun Arena</h3>
-    <nav>
-      <ul class="nav nav-justified">
-        <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true %></a></li>
-        <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html'%></a></li>
-        <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html'%></a></li>
-        <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html'%></a></li>
-        <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html'%></a></li>
-        <li><a> <%= link_to data.flats.structure_glonfle.name, '/flats/structure_glonfle.html'%></a></li>
-      </ul>
-    </nav>
+<div class="masthead :hover">
+  <h3 class="text-muted text-center"> <%= link_to 'Fun Arena', '/index.html', :relative => true %></h3>
+  <nav>
+    <ul class="nav nav-justified">
+      <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true, class: "btn btn-danger" %></a></li>
+      <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html', class: "btn btn-danger" %></a></li>
+      <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html', class: "btn btn-danger"%></a></li>
+      <li><a> <%= link_to data.flats.lazer.name, '/flats/lazer.html', class: "btn btn-danger" %></a></li>
+    </ul>
+  </nav>
+</div>
+
+
+      <!-- Example row of columns -->
+<div class="row">
+  <div class="col-lg-4">
+    <h2><i class="pad fa fa-facebook-square"></i>acebook </h2>
+      <div class="fb-page"
+            data-tabs="messages,events,timeline"
+            data-href="https://www.facebook.com/FUN-ARENA-241864466148382/?fref=ts"
+            data-width="330"
+            data-hide-cover="false">
+      </div>
   </div>
+  <div class="col-lg-8">
+    <h2><i class="fa fa-youtube" aria-hidden="true"></i> Souvenir souvenir</h2>
+    <iframe id="ytplayer" type="text/html" width="640" height="390"
+            src="http://www.youtube.com/embed/XOAKSuD6qR0?autoplay=1&origin=https://www.youtube.com/watch?v=XOAKSuD6qR0"
+            frameborder="0"/>
+    </iframe>
+  </div>
+</div>
+
 
   <!-- Jumbotron -->
   <div class="jumbotron">
-    <h1>Marketing stuff!</h1>
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-    <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button></p>
-  </div>
+    <h1>Fun activite</h1>
+    <p class="lead">notre arene</p>
+    <div class="row">
+      <div class="text-center">
+       <iframe width="1067" height="580" src="https://www.youtube.com/embed/NzGOYQYBisM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p>Tarifs <%= data.flats[person_name].name %> :</p>
 
-      <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-lg-4">
-      <h2>Safari bug warning!</h2>
-      <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-lg-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-   </div>
-    <div class="col-lg-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-      <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-    </div>
+    <p> <%= data.flats[person_name].prix %></p>
+    <p> <%= data.flats[person_name].forfait %> </p>
+
+    <p> <%= data.flats[person_name].etudiant %></p>
+    <p><%= data.flats.Packs_adutes %> </p>
+    <p><%= data.flats.Packs_enfants %> </p>
+    <p><%= data.flats.Formules_anniversaire %> </p>
+
+    <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
   </div>
 
   <!-- Site footer -->
   <footer class="footer">
-    <p>&copy; 2015 Company, Inc.</p>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+      <p class="text-center">&copy; 2016 coding with love, <i class="fa fa-heartbeat"></i> Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 
 </div> <!-- /container -->

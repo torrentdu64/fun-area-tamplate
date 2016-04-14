@@ -14,8 +14,14 @@
 @import "pages/*";
 @import "vendor/*";
 
+.wapes{
+  background: #EEEEEE
+}
 .wap {
-  background-color: #F5F5F5;
+  background: url('../images/Logo Fun Arena.png');
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 170px;
 }
  // -------------------- flats.banner------------//
 .banner {
@@ -97,3 +103,41 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+// ----------------------------------------------------------//
+// flats
+.btn-danger {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #EEEEEE;
+  transition: background 0.3s ease;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: red;
+}
+.pad{
+  letter-spacing: 3px;
+}
+
+
+// --------------------------------------------------//
+// events
+
+.envent-fb{
+ border-radius: 10px;
+}
+
+
+// ----------------------------------------------------//
+// partenaire
+.partenaire-particulier{
+  margin-top: 160px;
+}
+
+
+
+

@@ -42,7 +42,7 @@ sumo:
     adultes: 100 €
 bumball:
   name: Bumball
-  picture: Bumball.jpg
+  picture: bumball1pic3.jpg
   city: Pau
   prix: 120 €
 structure_glonfle:
@@ -51,8 +51,8 @@ structure_glonfle:
   city: Pau
   prix:
 lazer:
-  name: Jungle Lazer
-  picture:
+  name: Lazer Game
+  picture: oyanalaser.jpg
   city: Pau
   prix: 15 €
   Packs_adutes1: 30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
@@ -67,7 +67,17 @@ event:
   name:
   picture:
   city:
+<<<<<<< HEAD
 
+=======
+Packs_adutes:  30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+                30 minutes Bubble + 1 heure Archer 260€
+                1 heure Bubble + 1 heure Archer 320€
+
+Packs_enfants:  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+                2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+                1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+>>>>>>> flats
 
 
 
