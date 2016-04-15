@@ -25,46 +25,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!-- /.carousel -->
-<!-- </div>
-  <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Fun Arena</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><%= link_to "bubble bump", "/flats/bubble.html" %></li>
-              <li><%= link_to "archer", "/flats/archer.html" %></li>
-              <li><%= link_to "sumo", "/flats/sumo.html" %></li>
-              <li><%= link_to "bumball", "/flats/bumball.html" %></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-              </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </div>
-</div> -->
+
 <div id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -74,6 +35,7 @@
                   <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand page-scroll" href="#page-top">
+               <div><%= image_tag "Logofunarena.png", width: "240", height: "240"%> </div>
                 <span class="light">Fun</span> Arena
               </a>
           </div>
@@ -118,37 +80,10 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 </div>
-  <div class="welcome text-center padded">
-    <h1>Welcome on Fun Arena </h1>
+  <div class="welcome text-center padded lim-home tittle-color ">
+    <h1>Bienvenus dans l'aréne </h1>
   </div>
 </div>
-    <!-- div class="wapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-offset-1 col-xs-3">
-           <i class="fa fa-futbol-o fa-5x"></i>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus voluptatum sapiente corporis, magni alias eum, temporibus, deleniti atque dolore suscipit veniam ipsam adipisci consequatur. Delectus ipsum cupiditate neque voluptas!
-             </p>
-          </div>
-
-          <div class="col-xs-3">
-            <i class="fa fa-camera-retro fa-5x"></i>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus voluptatum sapiente corporis, magni alias eum, temporibus, deleniti atque dolore suscipit veniam ipsam adipisci consequatur. Delectus ipsum cupiditate neque voluptas!
-             </p>
-          </div>
-
-          <div class="col-xs-3">
-            <i class="fa fa-heart fa-5x"></i>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus voluptatum sapiente corporis, magni alias eum, temporibus, deleniti atque dolore suscipit veniam ipsam adipisci consequatur. Delectus ipsum cupiditate neque voluptas!
-             </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-   -->
-
-
 
 <section id="about" class="container content-section text-center">
   <!-- Carousel
@@ -159,15 +94,6 @@
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-
-
-
-
-
-
-
 
 <div class="container marketing">
 <!-- Three columns of text below the carousel -->
@@ -196,7 +122,7 @@
     <div class="col-lg-4">
       <div class="wapes text-center">
         <img class="img-circle">
-          <%= link_to (image_tag "Sumo-e1445182341792.png", width: "140", height: "140", class: "img-circle"),
+          <%= link_to (image_tag "sumo-blanc.png", width: "140", height: "140", class: "img-circle"),
            '/flats/sumo.html'%>
         <h2><%= link_to data.flats.sumo.name, '/flats/sumo.html' %></h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -226,13 +152,15 @@
     </div>
   </div>
 </div><!-- /.row -->
-<section id="download" class="container content-section text-center">
-<h2><i class="pad fa fa-facebook-square"></i>acebook </h2>
-<div class="card-category">Evenement</div>
-<div class="card-description">
-<h2>Venez-nous rejoindre !!</h2>
-<div>
-  <div class="wap ">
+<div class="banner-event">
+  <section id="download" class="container content-section text-center">
+  <h2 class="event-letter"><i class="pad fa fa-facebook-square event-letter"></i>acebook </h2>
+  <div class="card-category event-letter">Evenement</div>
+  <div class="card-description">
+    <h2 class="event-letter">Venez-nous rejoindre !!</h2>
+  </div>
+</div>
+  <div class="wap container content-section text-center">
     <div class="row">
       <div class="col-lg-6">
         <div class="fb-page"
@@ -271,15 +199,11 @@
     </div>
   </div>
 </div>
-</section>
-</div>
-<br>
-<br>
-
-
-    <!-- START THE FEATURETTES -->
-
 <hr class="featurette-divider">
+</section>
+    <!-- START THE FEATURETTES -->
+    <!-- <hr class="featurette-divider"> -->
+
 
 <div class="row featurette">
   <div class="col-md-offset-1 col-md-7">

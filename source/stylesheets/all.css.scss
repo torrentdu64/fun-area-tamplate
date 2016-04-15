@@ -138,6 +138,27 @@
   margin-top: 160px;
 }
 
+// -------------------------------------------------------//
+// home section
+.lim-home{
+  background-color:black;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+}
+.tittle-color{
+  color: white;
+}
+// ---------------------------------------------------------------//
+// evenement facebook
+.banner-event{
+  background-color:black;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+}
+.event-letter{
+  color: white;
+}
+// -----------------------------------------------------------------//
+// padding background fix event
 
-
-
+.featurette-divider{
+margin-top: 1px;
+}
