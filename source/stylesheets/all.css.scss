@@ -121,8 +121,11 @@
 }
 .pad{
   letter-spacing: 3px;
+  color:#44619D;
 }
-
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: -65px;
+}
 
 // --------------------------------------------------//
 // events
@@ -162,3 +165,55 @@
 .featurette-divider{
 margin-top: 1px;
 }
+// -----------------------------------------------------------------//
+// padding event facebook
+.pad-face{
+  padding-bottom: 100px;
+}
+// -----------------------------------------------------------------//
+// pit banner sur page flats
+.flat-banner{
+ background-color:black;
+ background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+ margin: -1px;
+  padding: 45px;
+}
+
+
+// ------------------------------------------------------------------//
+// flats show icon camera
+.rouge{
+ color:#E62117;
+}
+
+// -----------------------------------------------------------------//
+// bacground-flats-show
+// .background-flats-show{
+//   background: url('../images/background-flats.png') center;
+// }
+// ----------------------------------------------------------------//
+// banner avant les tarif
+.air-banner{
+ background-color:black;
+ background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  padding: auto;
+  margin-left: -90px;
+  margin-right: -90px;
+}
+
+
+
+
+
+
+
+//   background: url(image/bg.jpg)
+//   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+//   background-size: cover; /* version standardisée */
+// }
+
+
+
+
+
+
