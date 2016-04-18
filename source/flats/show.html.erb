@@ -104,33 +104,37 @@
     </div>
     <div class="row">
       <div class="air-banner">
-         <h3>Fun activite</h3>
-          <p class="lead">notre arene</p>
+         <h3></h3>
+          <p class="lead"></p>
       </div>
     </div>
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-      <h1>Fun activite</h1>
-      <p class="lead">notre arene</p>
-      <div class="row">
+        <!-- Jumbotron -->
+    <div class="pad-jumbo">
+      <div class="wapes">
+        <h1 class="text-center" >Fun activite</h1>
+        <p class="lead text-center">notre arene</p>
+        <div class="row">
+          <div class="text-center">
+           <iframe width="1067" height="580" src="https://www.youtube.com/embed/NzGOYQYBisM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
         <div class="text-center">
-         <iframe width="1067" height="580" src="https://www.youtube.com/embed/NzGOYQYBisM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <p>Tarifs <%= data.flats[person_name].name %> :</p>
+
+          <p> <%= data.flats[person_name].prix %></p>
+          <p> <%= data.flats[person_name].forfait %> </p>
+
+          <p> <%= data.flats[person_name].etudiant %></p>
+          <p><%= data.flats.Packs_adutes %> </p>
+          <p><%= data.flats.Packs_enfants %> </p>
+          <p><%= data.flats.Formules_anniversaire %> </p>
+
+          <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <p>Tarifs <%= data.flats[person_name].name %> :</p>
-
-      <p> <%= data.flats[person_name].prix %></p>
-      <p> <%= data.flats[person_name].forfait %> </p>
-
-      <p> <%= data.flats[person_name].etudiant %></p>
-      <p><%= data.flats.Packs_adutes %> </p>
-      <p><%= data.flats.Packs_enfants %> </p>
-      <p><%= data.flats.Formules_anniversaire %> </p>
-
-      <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
     </div>
 
     <!-- Site footer -->
@@ -144,12 +148,6 @@
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-
-
-
-
-
 
 
 
