@@ -38,14 +38,14 @@
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  text-shadow: #B34646 1px 1px, #B34646 -1px 1px, #B34646 -1px -1px, #B34646 1px -1px;
-
+  text-shadow: black  1px 1px, black  -1px 1px, black  -1px -1px, black  1px -1px;
 }
 .banner p {
   font-size: 20px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+  font: white;
 }
 // --------------------carousel index----------------//
 
@@ -176,7 +176,10 @@ margin-top: 1px;
  background-color:black;
  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
  margin: -1px;
-  padding: 45px;
+ padding: 45px;
+}
+.white-color{
+ color: white;
 }
 
 
