@@ -68,21 +68,25 @@
 
     <div>
       <nav>
-        <ul class="nav nav-justified ">
-          <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true, class: "btn btn-danger" %></a></li>
-          <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html', class: "btn btn-danger" %></a></li>
-          <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html', class: "btn btn-danger"%></a></li>
-          <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html', class: "btn btn-danger"%></a></li>
-          <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html', class: "btn btn-danger"%></a></li>
-          <li><a> <%= link_to data.flats.lazer.name, '/flats/lazer.html', class: "btn btn-danger" %></a></li>
-        </ul>
+        <div class="row">
+          <div class=" col-xs-4 col-lg-12">
+            <ul class="nav nav-justified ">
+              <li class="active"><a> <%= link_to 'Home', '/index.html', :relative => true, class: "btn btn-danger" %></a></li>
+              <li><a> <%= link_to data.flats.bubble.name, '/flats/bubble.html', class: "btn btn-danger" %></a></li>
+              <li><a> <%= link_to data.flats.archer.name, '/flats/archer.html', class: "btn btn-danger"%></a></li>
+              <li><a> <%= link_to data.flats.sumo.name, '/flats/sumo.html', class: "btn btn-danger"%></a></li>
+              <li><a> <%= link_to data.flats.bumball.name, '/flats/bumball.html', class: "btn btn-danger"%></a></li>
+              <li><a> <%= link_to data.flats.lazer.name, '/flats/lazer.html', class: "btn btn-danger" %></a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
 
 
           <!-- Example row of columns -->
     <div class="row">
-      <div class="col-lg-4">
+      <div class=" col-xs-12 col-lg-4">
         <h2 style="color: #44619D;"><i class="pad fa fa-facebook-square"></i>acebook </h2>
           <div class="fb-page"
                 data-tabs="messages,events,timeline"
@@ -91,7 +95,7 @@
                 data-hide-cover="false">
           </div>
       </div>
-      <div class="col-lg-8 text-center">
+      <div class="col-xs-12 col-lg-8 text-center">
         <h2><i class="fa fa-youtube rouge" ></i> Souvenir souvenir</h2>
         <iframe id="ytplayer" type="text/html" width="640" height="390"
                 src="http://www.youtube.com/embed/XOAKSuD6qR0?autoplay=1&origin=https://www.youtube.com/watch?v=XOAKSuD6qR0"
@@ -111,10 +115,10 @@
         <!-- Jumbotron -->
     <div class="pad-jumbo">
       <div class="wapes">
-        <h1 class="text-center" >Fun activite</h1>
+        <h1 class="text-center jumbo-tittle">Fun activite</h1>
         <p class="lead text-center ">notre arene</p>
         <div class="row">
-          <div class="text-center">
+          <div class="col-xs-12 text-center">
            <iframe width="1067" height="580" src="https://www.youtube.com/embed/NzGOYQYBisM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
@@ -136,15 +140,11 @@
         </div>
       </div>
     </div>
-
-    <!-- Site footer -->
-    <footer class="footer">
-      <p class="pull-right"><a href="#">Back to top</a></p>
-        <p class="text-center">&copy; 2016 coding with love, <i class="fa fa-heartbeat"></i> Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-
   </div> <!-- /container -->
 </div>
+    <!-- Site footer -->
+
+
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

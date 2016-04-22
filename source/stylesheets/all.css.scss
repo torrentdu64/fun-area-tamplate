@@ -126,7 +126,10 @@
 .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-bottom: -65px;
 }
-
+.nav-color{
+  color: #E62117;
+  text-shadow: black  0.5px 0.5px, black  -0.5px 0.5px, black  -0.5px -0.5px, black  0.5px -0.5px;
+}
 // --------------------------------------------------//
 // events
 
@@ -211,11 +214,28 @@ margin-top: 1px;
 .pad-jumbo{
   margin-top: -110px;
 }
+// -------------------------------------------------------------------//
+// weight of jumbo and family font pull of course google
+
+.jumbo-tittle{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #E62117;
+  text-shadow: 4px 4px 4px #aaa;
+}
 
 
 
-
-
+// --------------------------------------------------------//
+// footer
+.footer-color{
+  background-color:black;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  padding: 65px;
+  p{
+    color: white;
+  }
+}
 
 //   background: url(image/bg.jpg)
 //   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
