@@ -6,7 +6,7 @@ bubble:
   forfait: 240 €
   etudiant: 150 €
 archer:
-  name: Archery Game
+  name: Archer Aréna
   picture: archery_picture.png
   city: Pau
   prix: 15 €
@@ -30,7 +30,7 @@ structure_glonfle:
   city: Pau
   prix:
 lazer:
-  name: Lazer Game
+  name: Laser Game
   picture: oyanalaser.jpg
   city: Pau
   prix: 15 €
