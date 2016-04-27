@@ -34,15 +34,10 @@
             <h4 class="modal-title" id="exampleModalLabel">Vos messages</h4>
           </div>
           <div class="modal-body">
-            <form action="bubblefoot64@gmail.com" method="post">
-              <div class="form-group">
-                <label for="exampleInputEmail1">email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+            <form action="https://formspree.io/bubblefoot64@gmail.com" method="POST">
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">
             </form>
           </div>
           <div class="modal-footer">
@@ -128,13 +123,14 @@
         <div class="text-center">
           <p>Tarifs <%= data.flats[person_name].name %> :</p>
 
-          <p> <%= data.flats[person_name].prix %></p>
-          <p> <%= data.flats[person_name].forfait %> </p>
-
-          <p> <%= data.flats[person_name].etudiant %></p>
-          <p><%= data.flats.Packs_adutes %> </p>
-          <p><%= data.flats.Packs_enfants %> </p>
-          <p><%= data.flats.Formules_anniversaire %> </p>
+          <p> prix par personne : <%= image_tag (data.flats[person_name].prix) %></p>
+          <p> prix du forfait pour 8 personne : <%= image_tag (data.flats[person_name].forfait) %> </p>
+          <p> <%= data.flats[person_name].enfants %> </p>
+          <p> <%= data.flats[person_name].adultes %> </p>
+          <p> <%= data.flats[person_name].etudiant %> </p>
+          <p> <%= data.flats.Packs_adutes %> </p>
+          <p> <%= data.flats.Packs_enfants %> </p>
+          <p> <%= data.flats.Formules_anniversaire %> </p>
 
           <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
         </div>

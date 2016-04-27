@@ -1,9 +1,9 @@
 bubble:
   name: Bubble Bump
-  picture: bubble.jpeg
+  picture: bubble.jpg
   city: Pau
-  prix: 15 €
-  forfait: 240 €
+  prix: forfait.png
+  forfait: forfait-groupe.png
   etudiant: 150 €
 archer:
   name: Archer Aréna
@@ -16,9 +16,9 @@ sumo:
   name: Sumo
   picture: Sumo-e1445182341792.png
   city: Pau
-  prix:
-    enfants: 80 €
-    adultes: 100 €
+  prix: 15 €
+  enfants: 80 €
+  adultes: 100 €
 bumball:
   name: Bumball
   picture: bumball1pic3.jpg
