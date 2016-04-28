@@ -240,6 +240,24 @@ margin-top: 1px;
     color: white;
   }
 }
+// ------------------------------------------------------------------//
+// title home carousel
+.title-fun{
+ position: absolute;
+  top: 18%;
+  left: 24%;
+  z-index: 60;
+  // color: #CC2936;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  // border-color: white;
+  // font-family: 'Raleway', sans-serif;
+  // font-weight: 900;
+  color: #E62117;
+  // font-weight: 900;
+  text-transform: uppercase;
+  font-size: 55px;
+  line-height: 65px;
+}
 
 //   background: url(image/bg.jpg)
 //   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
