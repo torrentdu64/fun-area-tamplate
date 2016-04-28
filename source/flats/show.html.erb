@@ -21,7 +21,7 @@
 
 
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path flats.picture %>'); height: 75vh; background-position: center;">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path  data.flats[person_name].picture %>'); height: 75vh; background-position: center;">
   <div class="banner-content">
     <h1><%= data.flats[person_name].name %></h1>
      <!-- Button trigger modal -->
@@ -128,9 +128,13 @@
           <p> <%= data.flats[person_name].enfants %> </p>
           <p> <%= data.flats[person_name].adultes %> </p>
           <p> <%= data.flats[person_name].etudiant %> </p>
-          <p> <%= data.flats.Packs_adutes %> </p>
-          <p> <%= data.flats.Packs_enfants %> </p>
-          <p> <%= data.flats.Formules_anniversaire %> </p>
+          <p> <%= data.flats.Packsadultes %> </p>
+          <p> <%= data.flats.Packsenfants %> </p>
+          <p> <%= data.flats.Formulesanniversaire %> </p>
+
+          <a download="archer.jpg" href="../path/source/image" title="archer">
+            <img alt="archer" src="../path/source/image">
+          </a>
 
           <p>     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
         </div>
