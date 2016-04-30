@@ -5,6 +5,17 @@ bubble:
   prix: "forfait.png"
   forfait: "forfait-groupe.png"
   etudiant: "150 €"
+  packsadultes: |
+    30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+    30 minutes Bubble + 1 heure Archer 260€
+    1 heure Bubble + 1 heure Archer 320€
+  packsenfants: |
+    2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+    2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+    1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+  formulesanniversaire: |
+    1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+    1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 archer:
   name: "Archer Aréna"
   picture: "archery_picture.png"
@@ -12,6 +23,17 @@ archer:
   prix: "15 €"
   forfait: "120 €"
   etudiant: "120 €"
+  packsadultes: |
+    30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+    30 minutes Bubble + 1 heure Archer 260€
+    1 heure Bubble + 1 heure Archer 320€
+  packsenfants: |
+    2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+    2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+    1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+  formulesanniversaire: |
+    1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+    1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 sumo:
   name: "Sumo"
   picture: "Sumo-e1445182341792.png"
@@ -19,11 +41,33 @@ sumo:
   prix: "15 €"
   enfants: "80 €"
   adultes: "100 €"
+  packsadultes: |
+    30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+    30 minutes Bubble + 1 heure Archer 260€
+    1 heure Bubble + 1 heure Archer 320€
+  packsenfants: |
+    2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+    2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+    1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+  formulesanniversaire: |
+    1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+    1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 bumball:
   name: "Bumball"
   picture: "bumball1pic3.jpg"
   city: "Pau"
   prix: "120 €"
+  packsadultes: |
+    30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+    30 minutes Bubble + 1 heure Archer 260€
+    1 heure Bubble + 1 heure Archer 320€
+  packsenfants: |
+    2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+    2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+    1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+  formulesanniversaire: |
+    1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+    1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 structure_glonfle:
   name: "chateaux"
   picture:
@@ -34,24 +78,26 @@ lazer:
   picture: "oyanalaser.jpg"
   city: "Pau"
   prix: "15 €"
+  packsadultes: |
+    30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
+    30 minutes Bubble + 1 heure Archer 260€
+    1 heure Bubble + 1 heure Archer 320€
+  packsenfants: |
+    2 heures Archer enfants 200€ (jusqu’à 16 enfants)
+    2 heures Laser enfants 200€ (jusqu’à 16 enfants)
+    1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
+  formulesanniversaire: |
+    1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
+    1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
 event:
   name:
   picture:
   city:
 
-packsadultes: |
-  30 min Bubble + 30 minutes Archer 25€/personne (6 personnes minimum)
-  30 minutes Bubble + 1 heure Archer 260€
-  1 heure Bubble + 1 heure Archer 320€
 
-packsenfants: |
-  2 heures Archer enfants 200€ (jusqu’à 16 enfants)
-  2 heures Laser enfants 200€ (jusqu’à 16 enfants)
-  1 heure Archer + 1 heure Laser 250€ (jusqu’à 16 enfants)
 
-formulesanniversaire: |
-  1 heure Bubble/Laser ou Archer + 1 heure de soccer + le goûter (bonbons et boissons) 200€
-  1 heure de Bumball + 1 heure de soccer + le goûter (bonbons et boissons) 150€
+
+
 
 
 
