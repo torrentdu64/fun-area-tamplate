@@ -10,19 +10,19 @@
       <div class="item active" class="img-responsive">
         <%= image_tag "Bubblephoto.jpg",class: "first-slide",class: "img-responsive center-block" %>
         <div class="title-fun">
-          <h1><%= image_tag "Logofunarena.png" %></h1>
+          <h1><% image_tag "LogoFA.png", height: "100" %></h1>
         </div>
       </div>
       <div class="item">
         <%= image_tag "Bubbleebpo.jpg",class: "second-slide",class: "img-responsive center-block"  %>
         <div class="title-fun">
-          <h1><%= image_tag "Logofunarena.png" %></h1>
+          <h1><% image_tag "Logofunarena.png" %></h1>
         </div>
       </div>
       <div class="item">
         <%= image_tag "archerphoto.jpg",class: "third-slide",class: "img-responsive center-block" %>
         <div class="title-fun">
-          <h1><%= image_tag "Logofunarena.png" %></h1>
+          <h1><% image_tag "Logofunarena.png" %></h1>
         </div>
       </div>
     </div>
@@ -56,8 +56,7 @@
                   <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand page-scroll nav-color" href="#page-top">
-               <div><% image_tag "Logofunarena.png", width: "240", height: "240"%> </div>
-                <span class="light">Fun</span> Aréna
+               <%= image_tag "LogoFA.png", width: "150", height: "150", class: "img-circle", class: "logo-padd" %>
               </a>
           </div>
 
@@ -72,10 +71,10 @@
                       <a class="page-scroll nav-color" href="#about">Nos activités</a>
                   </li>
                   <li>
-                      <a class="page-scroll nav-color" href="#download">Evènements</a>
+                      <a class="page-scroll nav-color" href="#download">Nous rejoindre</a>
                   </li>
                   <li>
-                      <a class="page-scroll nav-color" href="#contact">Bonus</a>
+                      <a class="page-scroll nav-color" href="#contact">Bubble Bump</a>
                   </li>
               </ul>
           </div>
@@ -203,6 +202,7 @@
       </div>
     </div>
     <div class="container partenaire-particulier ">
+     <h2 class="featurette-heading tipo ">les partenaires</h2>
       <div class="row">
         <div class="col-xs-6 col-lg-3">
          <%= link_to (image_tag "partenaire1.png", width: "220", height: "140"), 'https://www.facebook.com/soccer.indoor.pyrenees/info/?section=hours&tab=page_info',target: '_blank'%>
