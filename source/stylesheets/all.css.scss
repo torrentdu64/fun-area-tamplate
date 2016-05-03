@@ -130,7 +130,7 @@
     margin-bottom: -65px;
 }
 .nav-color{
-  color: #E62117;
+  color: #FFFFFF;
   text-shadow: black  0.5px 0.5px, black  -0.5px 0.5px, black  -0.5px -0.5px, black  0.5px -0.5px;
 }
 // --------------------------------------------------//
@@ -295,6 +295,12 @@ margin-top: 1px;
   padding-top: 100px;
 }
 
+// -----------------------------------------------------------------------//
+// padding sur la banner flats
+.position{
+  background-position-x: 50%;
+  background-position-y: 25% !important;
+}
 
 
 
