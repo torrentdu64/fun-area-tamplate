@@ -124,22 +124,30 @@
         <br>
         <br>
         <br>
-        <div class="text-center">
-          <p>Tarifs <%= data.flats[person_name].name %> :</p>
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="text-center">
+              <p>Tarifs <%= data.flats[person_name].name %> :</p>
 
-          <p> prix par personne : <%= image_tag (data.flats[person_name].prix) %></p>
-          <p> prix du forfait pour 8 personne : <%= image_tag (data.flats[person_name].forfait) %> </p>
-          <p> <%= data.flats[person_name].enfants %> </p>
-          <p> <%= data.flats[person_name].adultes %> </p>
-          <p> <%= data.flats[person_name].etudiant %> </p>
-          <p> <%= data.flats[person_name].packsadultes %> </p>
-          <p> <%= data.flats[person_name].packsenfants %> </p>
-          <p> <%= data.flats[person_name].formulesanniversaire %> </p>
+              <p> prix par personne : <%= image_tag (data.flats[person_name].prix) %></p>
+              <p> prix du forfait pour 8 personne : <%= image_tag (data.flats[person_name].forfait) %> </p>
+              <p> <%= image_tag (data.flats[person_name].enfants) %> </p>
+              <p> <%= image_tag (data.flats[person_name].adultes) %> </p>
+              <p> <%= image_tag (data.flats[person_name].etudiant) %> </p>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="text-center">
+              <p> <%= data.flats[person_name].packsadultes %> </p>
+              <p> <%= data.flats[person_name].packsenfants %> </p>
+              <p> <%= data.flats[person_name].formulesanniversaire %> </p>
 
-          <a download="archer.jpg" href="../images/archer.jpg" title="invit">
-            <img alt="invit" src="../images/archer.jpg">
-          </a>
-          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
+              <a download="archer.jpg" href="../images/archer.jpg" title="invit">
+                <img alt="invit" src="../images/archer.jpg">
+              </a>
+              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">contactez nous</button></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
